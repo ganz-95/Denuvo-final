@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="com.niit.DenuvoBackend.model.supplier"/>
+<fullyQualifiedTypeName name="com.niit.DenuvoBackend.DAO.productDAO"/>
+<fullyQualifiedTypeName name="com.niit.DenuvoBackend.DAO.supplierDAO"/>
+<fullyQualifiedTypeName name="org.springframework.context.annotation.AnnotationConfigApplicationContext"/>
+<fullyQualifiedTypeName name="com.niit.DenuvoBackend.model.Category"/>
+<fullyQualifiedTypeName name="com.niit.DenuvoBackend.DAO.CategoryDAO"/>
+<fullyQualifiedTypeName name="com.niit.DenuvoBackend.model.Product"/>
+<fullyQualifiedTypeName name="com.niit.DenuvoBackend.DAO.ProductDAO"/>
+<fullyQualifiedTypeName name="com.niit.DenuvoBackend.DAO.SupplierDAO"/>
+<fullyQualifiedTypeName name="org.hibernate.SessionFactory"/>
+</qualifiedTypeNameHistroy>

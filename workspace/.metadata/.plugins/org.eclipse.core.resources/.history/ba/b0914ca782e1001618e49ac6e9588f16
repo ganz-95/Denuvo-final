@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="container" >
+  <div class="jumbotron">
+    <h1>              Restaurant finder             </h1> 
+     </div>
+  
+
+
+<div class="container" align="center">
+  
+  <br><br><br><br><br><br>
+
+  <div class="dropdown" style="float:left;width:100px; height:100px; margin-top: 200px; margin-left: 100px;”">
+    <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">select city
+    <span class="caret"></span></button>
+    <ul class="dropdown-menu" align="center">
+      <li class="dropdown-header">Popular</li>
+      <li><a href="#">Chennai</a></li>
+      <li><a href="#">Mumbai</a></li>
+      <li><a href="#">Delhi</a></li>
+      <li class="divider"></li>
+      <li class="dropdown-header">Others</li>
+      <li><a href="#">banglore</a></li>
+      <li><a href="#">Hyderabad</a></li>
+    </ul>
+  </div>
+</div>
+<div class="container" style="float:right">
+	<div class="row" >
+
+           <div id="custom-search-input">
+                            <div class="input-group col-md-12">
+                                <input type="text" class="  search-query form-control" placeholder="Search" />
+                                <span class="input-group-btn">
+                                    <button class="btn btn-danger" type="button">
+                                        <span class=" glyphicon glyphicon-search"></span>
+                                    </button>
+                                </span>
+                            </div>
+                        </div>
+	</div>
+</div><style>
+
+
+#custom-search-input {
+        margin:0;
+        margin-top: 10px;
+        padding: 0;
+    }
+ 
+    #custom-search-input .search-query {
+        padding-right: 3px;
+        padding-right: 4px \9;
+        padding-left: 3px;
+        padding-left: 4px \9;
+        /* IE7-8 doesn't have border-radius, so don't indent the padding */
+ 
+        margin-bottom: 0;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+    }
+ 
+    #custom-search-input button {
+        border: 0;
+        background: none;
+        /** belows styles are working good */
+        padding: 2px 5px;
+        margin-top: 2px;
+        position: relative;
+        left: -20px;
+        /* IE7-8 doesn't have border-radius, so don't indent the padding */
+        margin-bottom: 0;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+        color:#D9230F;
+    }
+ 
+    .search-query:focus + button {
+        z-index: 3;   
+    }
+
+</style>
+
+</body>
+</html>
